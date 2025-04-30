@@ -7,8 +7,8 @@
 
 /* Base page styles */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f1f1f1;
+  font-family: Helvetica, Arial, sans-serif; /* Changed to Helvetica */
+  background-color: #ffffff; /* Changed to white */
   padding: 20px;
 }
 
@@ -16,6 +16,18 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+/* Large NASA logo */
+.large-logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.large-logo img {
+  max-width: 100%;
+  height: auto;
+  width: 300px; /* Adjust size as needed */
 }
 
 /* Header */
@@ -53,7 +65,7 @@ h1 {
 /* Inputs and buttons */
 input[type="date"],
 button {
-  font-family: Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif; /* Changed to Helvetica */
   font-weight: normal;
   color: #666;
   padding: 10px 15px;
@@ -66,12 +78,12 @@ button {
 
 /* Button specific */
 button {
-  background-color: #d3d3d3;
-  color: black;
+  background-color: #0032A0;
+  color: white;
   cursor: pointer;
 }
 button:hover {
-  background-color: #bfbfbf;
+  background-color: #012e8f;
 }
 
 /* Stack horizontally on wider screens */
